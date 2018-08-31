@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1B5A1A8212BC015004AD200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1A7212BC015004AD200 /* AppDelegate.m */; };
+		D1B5A1AB212BC015004AD200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1AA212BC015004AD200 /* ViewController.m */; };
+		D1B5A1AE212BC015004AD200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5A1AC212BC015004AD200 /* Main.storyboard */; };
+		D1B5A1B0212BC016004AD200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B5A1AF212BC016004AD200 /* Assets.xcassets */; };
+		D1B5A1B3212BC016004AD200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5A1B1212BC016004AD200 /* LaunchScreen.storyboard */; };
+		D1B5A1B6212BC016004AD200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1B5212BC016004AD200 /* main.m */; };
+		D1B5A1C0212BC017004AD200 /* DomboDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1BF212BC017004AD200 /* DomboDemoTests.m */; };
+		D1B5A1CB212BC017004AD200 /* DomboDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1CA212BC017004AD200 /* DomboDemoUITests.m */; };
+		D1ED94C0212D4BD400D8C704 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ED94BF212D4BD400D8C704 /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1B5A1BC212BC017004AD200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1B5A19B212BC015004AD200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1B5A1A2212BC015004AD200;
+			remoteInfo = DomboDemo;
+		};
+		D1B5A1C7212BC017004AD200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1B5A19B212BC015004AD200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1B5A1A2212BC015004AD200;
+			remoteInfo = DomboDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1B5A1A3212BC015004AD200 /* DomboDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomboDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B5A1A6212BC015004AD200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1B5A1A7212BC015004AD200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1B5A1A9212BC015004AD200 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1B5A1AA212BC015004AD200 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1B5A1AD212BC015004AD200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1B5A1AF212BC016004AD200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1B5A1B2212BC016004AD200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1B5A1B4212BC016004AD200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B5A1B5212BC016004AD200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1B5A1BB212BC017004AD200 /* DomboDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomboDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B5A1BF212BC017004AD200 /* DomboDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomboDemoTests.m; sourceTree = "<group>"; };
+		D1B5A1C1212BC017004AD200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B5A1C6212BC017004AD200 /* DomboDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomboDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B5A1CA212BC017004AD200 /* DomboDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomboDemoUITests.m; sourceTree = "<group>"; };
+		D1B5A1CC212BC017004AD200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B5A1D9212BE56D004AD200 /* TNTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTHeader.h; sourceTree = "<group>"; };
+		D1B5A1DA212BF174004AD200 /* TNTNotes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTNotes.h; sourceTree = "<group>"; };
+		D1ED94BE212D4BD400D8C704 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		D1ED94BF212D4BD400D8C704 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1B5A1A0212BC015004AD200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5A1B8212BC017004AD200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5A1C3212BC017004AD200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1B5A19A212BC015004AD200 = {
+			isa = PBXGroup;
+			children = (
+				D1B5A1A5212BC015004AD200 /* DomboDemo */,
+				D1B5A1BE212BC017004AD200 /* DomboDemoTests */,
+				D1B5A1C9212BC017004AD200 /* DomboDemoUITests */,
+				D1B5A1A4212BC015004AD200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B5A1A4212BC015004AD200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5A1A3212BC015004AD200 /* DomboDemo.app */,
+				D1B5A1BB212BC017004AD200 /* DomboDemoTests.xctest */,
+				D1B5A1C6212BC017004AD200 /* DomboDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1B5A1A5212BC015004AD200 /* DomboDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5A1D8212BC089004AD200 /* TNTKit */,
+				D1B5A1A6212BC015004AD200 /* AppDelegate.h */,
+				D1B5A1A7212BC015004AD200 /* AppDelegate.m */,
+				D1B5A1A9212BC015004AD200 /* ViewController.h */,
+				D1B5A1AA212BC015004AD200 /* ViewController.m */,
+				D1ED94BE212D4BD400D8C704 /* DemoViewController.h */,
+				D1ED94BF212D4BD400D8C704 /* DemoViewController.m */,
+				D1B5A1AC212BC015004AD200 /* Main.storyboard */,
+				D1B5A1AF212BC016004AD200 /* Assets.xcassets */,
+				D1B5A1B1212BC016004AD200 /* LaunchScreen.storyboard */,
+				D1B5A1B4212BC016004AD200 /* Info.plist */,
+				D1B5A1B5212BC016004AD200 /* main.m */,
+			);
+			path = DomboDemo;
+			sourceTree = "<group>";
+		};
+		D1B5A1BE212BC017004AD200 /* DomboDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5A1BF212BC017004AD200 /* DomboDemoTests.m */,
+				D1B5A1C1212BC017004AD200 /* Info.plist */,
+			);
+			path = DomboDemoTests;
+			sourceTree = "<group>";
+		};
+		D1B5A1C9212BC017004AD200 /* DomboDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5A1CA212BC017004AD200 /* DomboDemoUITests.m */,
+				D1B5A1CC212BC017004AD200 /* Info.plist */,
+			);
+			path = DomboDemoUITests;
+			sourceTree = "<group>";
+		};
+		D1B5A1D8212BC089004AD200 /* TNTKit */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5A1D9212BE56D004AD200 /* TNTHeader.h */,
+				D1B5A1DA212BF174004AD200 /* TNTNotes.h */,
+			);
+			path = TNTKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1B5A1A2212BC015004AD200 /* DomboDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B5A1CF212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemo" */;
+			buildPhases = (
+				D1B5A19F212BC015004AD200 /* Sources */,
+				D1B5A1A0212BC015004AD200 /* Frameworks */,
+				D1B5A1A1212BC015004AD200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomboDemo;
+			productName = DomboDemo;
+			productReference = D1B5A1A3212BC015004AD200 /* DomboDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1B5A1BA212BC017004AD200 /* DomboDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B5A1D2212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemoTests" */;
+			buildPhases = (
+				D1B5A1B7212BC017004AD200 /* Sources */,
+				D1B5A1B8212BC017004AD200 /* Frameworks */,
+				D1B5A1B9212BC017004AD200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1B5A1BD212BC017004AD200 /* PBXTargetDependency */,
+			);
+			name = DomboDemoTests;
+			productName = DomboDemoTests;
+			productReference = D1B5A1BB212BC017004AD200 /* DomboDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1B5A1C5212BC017004AD200 /* DomboDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B5A1D5212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemoUITests" */;
+			buildPhases = (
+				D1B5A1C2212BC017004AD200 /* Sources */,
+				D1B5A1C3212BC017004AD200 /* Frameworks */,
+				D1B5A1C4212BC017004AD200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1B5A1C8212BC017004AD200 /* PBXTargetDependency */,
+			);
+			name = DomboDemoUITests;
+			productName = DomboDemoUITests;
+			productReference = D1B5A1C6212BC017004AD200 /* DomboDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1B5A19B212BC015004AD200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "尹东博";
+				TargetAttributes = {
+					D1B5A1A2212BC015004AD200 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D1B5A1BA212BC017004AD200 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D1B5A1A2212BC015004AD200;
+					};
+					D1B5A1C5212BC017004AD200 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D1B5A1A2212BC015004AD200;
+					};
+				};
+			};
+			buildConfigurationList = D1B5A19E212BC015004AD200 /* Build configuration list for PBXProject "DomboDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1B5A19A212BC015004AD200;
+			productRefGroup = D1B5A1A4212BC015004AD200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1B5A1A2212BC015004AD200 /* DomboDemo */,
+				D1B5A1BA212BC017004AD200 /* DomboDemoTests */,
+				D1B5A1C5212BC017004AD200 /* DomboDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1B5A1A1212BC015004AD200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B5A1B3212BC016004AD200 /* LaunchScreen.storyboard in Resources */,
+				D1B5A1B0212BC016004AD200 /* Assets.xcassets in Resources */,
+				D1B5A1AE212BC015004AD200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5A1B9212BC017004AD200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5A1C4212BC017004AD200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1B5A19F212BC015004AD200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B5A1AB212BC015004AD200 /* ViewController.m in Sources */,
+				D1B5A1B6212BC016004AD200 /* main.m in Sources */,
+				D1B5A1A8212BC015004AD200 /* AppDelegate.m in Sources */,
+				D1ED94C0212D4BD400D8C704 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5A1B7212BC017004AD200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B5A1C0212BC017004AD200 /* DomboDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5A1C2212BC017004AD200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B5A1CB212BC017004AD200 /* DomboDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1B5A1BD212BC017004AD200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1B5A1A2212BC015004AD200 /* DomboDemo */;
+			targetProxy = D1B5A1BC212BC017004AD200 /* PBXContainerItemProxy */;
+		};
+		D1B5A1C8212BC017004AD200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1B5A1A2212BC015004AD200 /* DomboDemo */;
+			targetProxy = D1B5A1C7212BC017004AD200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1B5A1AC212BC015004AD200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B5A1AD212BC015004AD200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1B5A1B1212BC016004AD200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B5A1B2212BC016004AD200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1B5A1CD212BC017004AD200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1B5A1CE212BC017004AD200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1B5A1D0212BC017004AD200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DomboDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dombo.DomboDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1B5A1D1212BC017004AD200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DomboDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dombo.DomboDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1B5A1D3212BC017004AD200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DomboDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dombo.DomboDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DomboDemo.app/DomboDemo";
+			};
+			name = Debug;
+		};
+		D1B5A1D4212BC017004AD200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DomboDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dombo.DomboDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DomboDemo.app/DomboDemo";
+			};
+			name = Release;
+		};
+		D1B5A1D6212BC017004AD200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DomboDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dombo.DomboDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DomboDemo;
+			};
+			name = Debug;
+		};
+		D1B5A1D7212BC017004AD200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DomboDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dombo.DomboDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DomboDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1B5A19E212BC015004AD200 /* Build configuration list for PBXProject "DomboDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B5A1CD212BC017004AD200 /* Debug */,
+				D1B5A1CE212BC017004AD200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B5A1CF212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B5A1D0212BC017004AD200 /* Debug */,
+				D1B5A1D1212BC017004AD200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B5A1D2212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B5A1D3212BC017004AD200 /* Debug */,
+				D1B5A1D4212BC017004AD200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B5A1D5212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B5A1D6212BC017004AD200 /* Debug */,
+				D1B5A1D7212BC017004AD200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1B5A19B212BC015004AD200 /* Project object */;
+}
