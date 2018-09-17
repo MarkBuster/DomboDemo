@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UIView appearance] setExclusiveTouch:YES];
+    [[UIButton appearance] setExclusiveTouch:YES];
     return YES;
 }
 

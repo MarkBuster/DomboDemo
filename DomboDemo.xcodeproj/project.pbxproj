@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13892C6214A3A8D00F2019C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13892C5214A3A8D00F2019C /* View.xib */; };
+		D1AE3CD62147E0F700313A9B /* TNTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AE3CD32147E0F700313A9B /* TNTTools.m */; };
+		D1AE3CD72147E0F700313A9B /* UIView+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AE3CD52147E0F700313A9B /* UIView+TNTCategory.m */; };
 		D1B5A1A8212BC015004AD200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1A7212BC015004AD200 /* AppDelegate.m */; };
 		D1B5A1AB212BC015004AD200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1AA212BC015004AD200 /* ViewController.m */; };
 		D1B5A1AE212BC015004AD200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5A1AC212BC015004AD200 /* Main.storyboard */; };
@@ -16,6 +19,11 @@
 		D1B5A1C0212BC017004AD200 /* DomboDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1BF212BC017004AD200 /* DomboDemoTests.m */; };
 		D1B5A1CB212BC017004AD200 /* DomboDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1CA212BC017004AD200 /* DomboDemoUITests.m */; };
 		D1ED94C0212D4BD400D8C704 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ED94BF212D4BD400D8C704 /* DemoViewController.m */; };
+		D1F6D300214F7E5A00BAFB62 /* UIImage+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D2FF214F7E5A00BAFB62 /* UIImage+TNTCategory.m */; };
+		D1F6D303214F83FE00BAFB62 /* UITextField+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D302214F83FE00BAFB62 /* UITextField+TNTCategory.m */; };
+		D1F6D306214F855A00BAFB62 /* UITextView+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D305214F855A00BAFB62 /* UITextView+TNTCategory.m */; };
+		D1F6D309214F886F00BAFB62 /* UIButton+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D308214F886F00BAFB62 /* UIButton+TNTCategory.m */; };
+		D1F6D30D214F8ECC00BAFB62 /* UIColor+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D30C214F8ECC00BAFB62 /* UIColor+TNTCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D13892C5214A3A8D00F2019C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		D1AE3CD22147E0F700313A9B /* UIView+TNTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TNTCategory.h"; sourceTree = "<group>"; };
+		D1AE3CD32147E0F700313A9B /* TNTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNTTools.m; sourceTree = "<group>"; };
+		D1AE3CD42147E0F700313A9B /* TNTTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNTTools.h; sourceTree = "<group>"; };
+		D1AE3CD52147E0F700313A9B /* UIView+TNTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TNTCategory.m"; sourceTree = "<group>"; };
 		D1B5A1A3212BC015004AD200 /* DomboDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomboDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B5A1A6212BC015004AD200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1B5A1A7212BC015004AD200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +69,17 @@
 		D1B5A1DA212BF174004AD200 /* TNTNotes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTNotes.h; sourceTree = "<group>"; };
 		D1ED94BE212D4BD400D8C704 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		D1ED94BF212D4BD400D8C704 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		D1F6D2FE214F7E5A00BAFB62 /* UIImage+TNTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TNTCategory.h"; sourceTree = "<group>"; };
+		D1F6D2FF214F7E5A00BAFB62 /* UIImage+TNTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TNTCategory.m"; sourceTree = "<group>"; };
+		D1F6D301214F83FE00BAFB62 /* UITextField+TNTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+TNTCategory.h"; sourceTree = "<group>"; };
+		D1F6D302214F83FE00BAFB62 /* UITextField+TNTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TNTCategory.m"; sourceTree = "<group>"; };
+		D1F6D304214F855A00BAFB62 /* UITextView+TNTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+TNTCategory.h"; sourceTree = "<group>"; };
+		D1F6D305214F855A00BAFB62 /* UITextView+TNTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TNTCategory.m"; sourceTree = "<group>"; };
+		D1F6D307214F886F00BAFB62 /* UIButton+TNTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TNTCategory.h"; sourceTree = "<group>"; };
+		D1F6D308214F886F00BAFB62 /* UIButton+TNTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TNTCategory.m"; sourceTree = "<group>"; };
+		D1F6D30A214F89F000BAFB62 /* TNTCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTCommonMacro.h; sourceTree = "<group>"; };
+		D1F6D30B214F8ECC00BAFB62 /* UIColor+TNTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TNTCategory.h"; sourceTree = "<group>"; };
+		D1F6D30C214F8ECC00BAFB62 /* UIColor+TNTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TNTCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +133,7 @@
 				D1B5A1D8212BC089004AD200 /* TNTKit */,
 				D1B5A1A6212BC015004AD200 /* AppDelegate.h */,
 				D1B5A1A7212BC015004AD200 /* AppDelegate.m */,
+				D13892C5214A3A8D00F2019C /* View.xib */,
 				D1B5A1A9212BC015004AD200 /* ViewController.h */,
 				D1B5A1AA212BC015004AD200 /* ViewController.m */,
 				D1ED94BE212D4BD400D8C704 /* DemoViewController.h */,
@@ -145,6 +170,21 @@
 			children = (
 				D1B5A1D9212BE56D004AD200 /* TNTHeader.h */,
 				D1B5A1DA212BF174004AD200 /* TNTNotes.h */,
+				D1F6D30A214F89F000BAFB62 /* TNTCommonMacro.h */,
+				D1AE3CD42147E0F700313A9B /* TNTTools.h */,
+				D1AE3CD32147E0F700313A9B /* TNTTools.m */,
+				D1AE3CD22147E0F700313A9B /* UIView+TNTCategory.h */,
+				D1AE3CD52147E0F700313A9B /* UIView+TNTCategory.m */,
+				D1F6D2FE214F7E5A00BAFB62 /* UIImage+TNTCategory.h */,
+				D1F6D2FF214F7E5A00BAFB62 /* UIImage+TNTCategory.m */,
+				D1F6D301214F83FE00BAFB62 /* UITextField+TNTCategory.h */,
+				D1F6D302214F83FE00BAFB62 /* UITextField+TNTCategory.m */,
+				D1F6D304214F855A00BAFB62 /* UITextView+TNTCategory.h */,
+				D1F6D305214F855A00BAFB62 /* UITextView+TNTCategory.m */,
+				D1F6D307214F886F00BAFB62 /* UIButton+TNTCategory.h */,
+				D1F6D308214F886F00BAFB62 /* UIButton+TNTCategory.m */,
+				D1F6D30B214F8ECC00BAFB62 /* UIColor+TNTCategory.h */,
+				D1F6D30C214F8ECC00BAFB62 /* UIColor+TNTCategory.m */,
 			);
 			path = TNTKit;
 			sourceTree = "<group>";
@@ -252,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13892C6214A3A8D00F2019C /* View.xib in Resources */,
 				D1B5A1B3212BC016004AD200 /* LaunchScreen.storyboard in Resources */,
 				D1B5A1B0212BC016004AD200 /* Assets.xcassets in Resources */,
 				D1B5A1AE212BC015004AD200 /* Main.storyboard in Resources */,
@@ -279,10 +320,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AE3CD62147E0F700313A9B /* TNTTools.m in Sources */,
 				D1B5A1AB212BC015004AD200 /* ViewController.m in Sources */,
+				D1F6D303214F83FE00BAFB62 /* UITextField+TNTCategory.m in Sources */,
+				D1F6D300214F7E5A00BAFB62 /* UIImage+TNTCategory.m in Sources */,
 				D1B5A1B6212BC016004AD200 /* main.m in Sources */,
 				D1B5A1A8212BC015004AD200 /* AppDelegate.m in Sources */,
 				D1ED94C0212D4BD400D8C704 /* DemoViewController.m in Sources */,
+				D1F6D306214F855A00BAFB62 /* UITextView+TNTCategory.m in Sources */,
+				D1F6D309214F886F00BAFB62 /* UIButton+TNTCategory.m in Sources */,
+				D1AE3CD72147E0F700313A9B /* UIView+TNTCategory.m in Sources */,
+				D1F6D30D214F8ECC00BAFB62 /* UIColor+TNTCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

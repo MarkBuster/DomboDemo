@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <objc/runtime.h>
 #import "DemoViewController.h"
+#import "UIView+TNTCategory.h"
 @interface ViewController ()
 
 @end
@@ -19,8 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    size_t size = class_getInstanceSize([NSArray class]);
-    NSLog(@"size == %zu", size);
+//    size_t size = class_getInstanceSize([NSArray class]);
+//    NSLog(@"size == %zu", size);
     
 //    NSString *str = @"pp是猪";
 //    NSLog(@"str1 == %p", str);
@@ -29,7 +30,7 @@
     
 //    NSObject *obj;
     
-    NSObject *obj = [NSObject new];
+//    NSObject *obj = [NSObject new];
 //    [obj setValue:@5566 forKeyPath:@"person.name"];
 //    [obj valueForKeyPath:@"person.name"];
 //    obj.accessg
@@ -37,20 +38,24 @@
     UIView *view = [[UIView alloc] init];
     view.frame = CGRectMake(33,268,309,132);
     view.backgroundColor = [UIColor redColor];
+//    [view drawCirclebyRoundingCorners];
+    [view drawCirclebyRoundingCorners:UIRectCornerTopRight | UIRectCornerBottomRight];
     [self.view addSubview:view];
     
     // gradient
-    CAGradientLayer *gl = [CAGradientLayer layer];
-//    gl.frame = CGRectMake(33,268,309,132);
-    gl.frame = view.bounds;
-    gl.startPoint = CGPointMake(0, 0.5);
-    gl.endPoint = CGPointMake(1, 0.5);
-    gl.colors = @[(__bridge id)[UIColor colorWithRed:168/255.0 green:134/255.0 blue:255/255.0 alpha:1].CGColor, (__bridge id)[UIColor colorWithRed:122/255.0 green:133/255.0 blue:255/255.0 alpha:1].CGColor];
-    gl.locations = @[@(0), @(1.0f)];
+//    CAGradientLayer *gl = [CAGradientLayer layer];
+////    gl.frame = CGRectMake(33,268,309,132);
+//    gl.frame = view.bounds;
+//    gl.startPoint = CGPointMake(0, 0.5);
+//    gl.endPoint = CGPointMake(1, 0.5);
+//    gl.colors = @[(__bridge id)[UIColor colorWithRed:168/255.0 green:134/255.0 blue:255/255.0 alpha:1].CGColor, (__bridge id)[UIColor colorWithRed:122/255.0 green:133/255.0 blue:255/255.0 alpha:1].CGColor];
+//    gl.locations = @[@(0), @(1.0f)];
+//
+//    view.layer.cornerRadius = 15;
+//    view.layer.masksToBounds = YES;
+//    [view.layer addSublayer:gl];
     
-    view.layer.cornerRadius = 15;
-    view.layer.masksToBounds = YES;
-    [view.layer addSublayer:gl];
+    
 }
 
 - (void)ppIsPig {
@@ -64,6 +69,9 @@
 //
     DemoViewController *demoVC = [[DemoViewController alloc] init];
     [self.navigationController pushViewController:demoVC animated:YES];
+    
+//    NSString * hahahah = [NSString stringWithFormat:@"pp是大笨猪"];
+//    NSString * hahahah = [NSString stringWithFormat:@"pp是大笨猪"];
 }
 
 - (void)didReceiveMemoryWarning {
