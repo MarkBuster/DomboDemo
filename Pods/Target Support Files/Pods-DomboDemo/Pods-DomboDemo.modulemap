@@ -1,0 +1,6 @@
+framework module Pods_DomboDemo {
+  umbrella header "Pods-DomboDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

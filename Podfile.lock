@@ -1,0 +1,16 @@
+PODS:
+  - FirstSpaceY (0.0.2)
+
+DEPENDENCIES:
+  - FirstSpaceY (~> 0.0.2)
+
+SPEC REPOS:
+  https://github.com/MarkBuster/PrivateLibraries.git:
+    - FirstSpaceY
+
+SPEC CHECKSUMS:
+  FirstSpaceY: 1819ae346e1cf93dc05446d5d3612c880e47023d
+
+PODFILE CHECKSUM: 9fa5df12c356b260e897c79717982f9a6077fe5c
+
+COCOAPODS: 1.5.3

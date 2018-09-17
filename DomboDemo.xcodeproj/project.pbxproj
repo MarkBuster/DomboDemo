@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D6DF6140DB4361EE5022841 /* Pods_DomboDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A89B23B198418401493FB8B /* Pods_DomboDemo.framework */; };
+		BF773F7A1895F03A6E608EDE /* Pods_DomboDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A18B926EBD687EC8F3D463 /* Pods_DomboDemoTests.framework */; };
 		D13892C6214A3A8D00F2019C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13892C5214A3A8D00F2019C /* View.xib */; };
 		D1AE3CD62147E0F700313A9B /* TNTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AE3CD32147E0F700313A9B /* TNTTools.m */; };
 		D1AE3CD72147E0F700313A9B /* UIView+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AE3CD52147E0F700313A9B /* UIView+TNTCategory.m */; };
@@ -24,6 +26,7 @@
 		D1F6D306214F855A00BAFB62 /* UITextView+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D305214F855A00BAFB62 /* UITextView+TNTCategory.m */; };
 		D1F6D309214F886F00BAFB62 /* UIButton+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D308214F886F00BAFB62 /* UIButton+TNTCategory.m */; };
 		D1F6D30D214F8ECC00BAFB62 /* UIColor+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D30C214F8ECC00BAFB62 /* UIColor+TNTCategory.m */; };
+		D577E666DC1D7CC6AA35FD61 /* Pods_DomboDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E487250689C4AF3765183344 /* Pods_DomboDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0686B7A7C9F8A879FB1261B6 /* Pods-DomboDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomboDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DomboDemoTests/Pods-DomboDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1BD5CDD2FA2B45C14B4BB99C /* Pods-DomboDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomboDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DomboDemoUITests/Pods-DomboDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59A18B926EBD687EC8F3D463 /* Pods_DomboDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomboDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BB60DE2365D9D5929757E1 /* Pods-DomboDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomboDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DomboDemo/Pods-DomboDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A89B23B198418401493FB8B /* Pods_DomboDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomboDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942562CC02B868E2721468A8 /* Pods-DomboDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomboDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DomboDemoUITests/Pods-DomboDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7152F0F1A23F68D6892B4E7 /* Pods-DomboDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomboDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DomboDemo/Pods-DomboDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D1225B66C84463C1F93ED614 /* Pods-DomboDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomboDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DomboDemoTests/Pods-DomboDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D13892C5214A3A8D00F2019C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		D1AE3CD22147E0F700313A9B /* UIView+TNTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TNTCategory.h"; sourceTree = "<group>"; };
 		D1AE3CD32147E0F700313A9B /* TNTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNTTools.m; sourceTree = "<group>"; };
@@ -80,6 +91,7 @@
 		D1F6D30A214F89F000BAFB62 /* TNTCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTCommonMacro.h; sourceTree = "<group>"; };
 		D1F6D30B214F8ECC00BAFB62 /* UIColor+TNTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TNTCategory.h"; sourceTree = "<group>"; };
 		D1F6D30C214F8ECC00BAFB62 /* UIColor+TNTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TNTCategory.m"; sourceTree = "<group>"; };
+		E487250689C4AF3765183344 /* Pods_DomboDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomboDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6DF6140DB4361EE5022841 /* Pods_DomboDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF773F7A1895F03A6E608EDE /* Pods_DomboDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +115,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D577E666DC1D7CC6AA35FD61 /* Pods_DomboDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		465B6FE5F33FDCBCAB02735C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A89B23B198418401493FB8B /* Pods_DomboDemo.framework */,
+				59A18B926EBD687EC8F3D463 /* Pods_DomboDemoTests.framework */,
+				E487250689C4AF3765183344 /* Pods_DomboDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1B5A19A212BC015004AD200 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +139,8 @@
 				D1B5A1BE212BC017004AD200 /* DomboDemoTests */,
 				D1B5A1C9212BC017004AD200 /* DomboDemoUITests */,
 				D1B5A1A4212BC015004AD200 /* Products */,
+				F4807B79129A6459AB7A4E53 /* Pods */,
+				465B6FE5F33FDCBCAB02735C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +216,19 @@
 			path = TNTKit;
 			sourceTree = "<group>";
 		};
+		F4807B79129A6459AB7A4E53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7152F0F1A23F68D6892B4E7 /* Pods-DomboDemo.debug.xcconfig */,
+				60BB60DE2365D9D5929757E1 /* Pods-DomboDemo.release.xcconfig */,
+				D1225B66C84463C1F93ED614 /* Pods-DomboDemoTests.debug.xcconfig */,
+				0686B7A7C9F8A879FB1261B6 /* Pods-DomboDemoTests.release.xcconfig */,
+				1BD5CDD2FA2B45C14B4BB99C /* Pods-DomboDemoUITests.debug.xcconfig */,
+				942562CC02B868E2721468A8 /* Pods-DomboDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B5A1CF212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemo" */;
 			buildPhases = (
+				F316804C795621EE80CC9A71 /* [CP] Check Pods Manifest.lock */,
 				D1B5A19F212BC015004AD200 /* Sources */,
 				D1B5A1A0212BC015004AD200 /* Frameworks */,
 				D1B5A1A1212BC015004AD200 /* Resources */,
+				D7561785360571F284A537FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B5A1D2212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemoTests" */;
 			buildPhases = (
+				F85508474D6C4A6662AF6174 /* [CP] Check Pods Manifest.lock */,
 				D1B5A1B7212BC017004AD200 /* Sources */,
 				D1B5A1B8212BC017004AD200 /* Frameworks */,
 				D1B5A1B9212BC017004AD200 /* Resources */,
@@ -231,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B5A1D5212BC017004AD200 /* Build configuration list for PBXNativeTarget "DomboDemoUITests" */;
 			buildPhases = (
+				C3733AA27B3B38AF2B5BFB4F /* [CP] Check Pods Manifest.lock */,
 				D1B5A1C2212BC017004AD200 /* Sources */,
 				D1B5A1C3212BC017004AD200 /* Frameworks */,
 				D1B5A1C4212BC017004AD200 /* Resources */,
@@ -314,6 +358,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3733AA27B3B38AF2B5BFB4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DomboDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7561785360571F284A537FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DomboDemo/Pods-DomboDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FirstSpaceY/FirstSpaceY.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirstSpaceY.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DomboDemo/Pods-DomboDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F316804C795621EE80CC9A71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DomboDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85508474D6C4A6662AF6174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DomboDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1B5A19F212BC015004AD200 /* Sources */ = {
@@ -497,6 +616,7 @@
 		};
 		D1B5A1D0212BC017004AD200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7152F0F1A23F68D6892B4E7 /* Pods-DomboDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +633,7 @@
 		};
 		D1B5A1D1212BC017004AD200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BB60DE2365D9D5929757E1 /* Pods-DomboDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +650,7 @@
 		};
 		D1B5A1D3212BC017004AD200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1225B66C84463C1F93ED614 /* Pods-DomboDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +669,7 @@
 		};
 		D1B5A1D4212BC017004AD200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0686B7A7C9F8A879FB1261B6 /* Pods-DomboDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +688,7 @@
 		};
 		D1B5A1D6212BC017004AD200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD5CDD2FA2B45C14B4BB99C /* Pods-DomboDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DomboDemoUITests/Info.plist;
@@ -582,6 +706,7 @@
 		};
 		D1B5A1D7212BC017004AD200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942562CC02B868E2721468A8 /* Pods-DomboDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DomboDemoUITests/Info.plist;

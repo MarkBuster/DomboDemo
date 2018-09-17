@@ -1,0 +1,6 @@
+framework module Pods_DomboDemoUITests {
+  umbrella header "Pods-DomboDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

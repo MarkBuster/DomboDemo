@@ -10,6 +10,8 @@
 #import <objc/runtime.h>
 #import "DemoViewController.h"
 #import "UIView+TNTCategory.h"
+
+#import <FirstSpaceY/Person.h>
 @interface ViewController ()
 
 @end
@@ -19,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+
 //    size_t size = class_getInstanceSize([NSArray class]);
 //    NSLog(@"size == %zu", size);
     

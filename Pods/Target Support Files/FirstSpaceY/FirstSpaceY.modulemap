@@ -1,0 +1,6 @@
+framework module FirstSpaceY {
+  umbrella header "FirstSpaceY-umbrella.h"
+
+  export *
+  module * { export * }
+}
