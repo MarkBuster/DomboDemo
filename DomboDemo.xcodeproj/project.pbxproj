@@ -20,6 +20,8 @@
 		D1B5A1B6212BC016004AD200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1B5212BC016004AD200 /* main.m */; };
 		D1B5A1C0212BC017004AD200 /* DomboDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1BF212BC017004AD200 /* DomboDemoTests.m */; };
 		D1B5A1CB212BC017004AD200 /* DomboDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A1CA212BC017004AD200 /* DomboDemoUITests.m */; };
+		D1DF24CF2153C11800264A64 /* UIDevice+TNTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF24CE2153C11800264A64 /* UIDevice+TNTAdd.m */; };
+		D1DF24D12153C18600264A64 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DF24D02153C18600264A64 /* SystemConfiguration.framework */; };
 		D1ED94C0212D4BD400D8C704 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ED94BF212D4BD400D8C704 /* DemoViewController.m */; };
 		D1F6D300214F7E5A00BAFB62 /* UIImage+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D2FF214F7E5A00BAFB62 /* UIImage+TNTCategory.m */; };
 		D1F6D303214F83FE00BAFB62 /* UITextField+TNTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F6D302214F83FE00BAFB62 /* UITextField+TNTCategory.m */; };
@@ -78,6 +80,9 @@
 		D1B5A1CC212BC017004AD200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1B5A1D9212BE56D004AD200 /* TNTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTHeader.h; sourceTree = "<group>"; };
 		D1B5A1DA212BF174004AD200 /* TNTNotes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTNotes.h; sourceTree = "<group>"; };
+		D1DF24CD2153C11800264A64 /* UIDevice+TNTAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TNTAdd.h"; sourceTree = "<group>"; };
+		D1DF24CE2153C11800264A64 /* UIDevice+TNTAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TNTAdd.m"; sourceTree = "<group>"; };
+		D1DF24D02153C18600264A64 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D1ED94BE212D4BD400D8C704 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		D1ED94BF212D4BD400D8C704 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		D1F6D2FE214F7E5A00BAFB62 /* UIImage+TNTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TNTCategory.h"; sourceTree = "<group>"; };
@@ -99,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DF24D12153C18600264A64 /* SystemConfiguration.framework in Frameworks */,
 				5D6DF6140DB4361EE5022841 /* Pods_DomboDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +131,7 @@
 		465B6FE5F33FDCBCAB02735C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1DF24D02153C18600264A64 /* SystemConfiguration.framework */,
 				7A89B23B198418401493FB8B /* Pods_DomboDemo.framework */,
 				59A18B926EBD687EC8F3D463 /* Pods_DomboDemoTests.framework */,
 				E487250689C4AF3765183344 /* Pods_DomboDemoUITests.framework */,
@@ -201,6 +208,8 @@
 				D1AE3CD42147E0F700313A9B /* TNTTools.h */,
 				D1AE3CD32147E0F700313A9B /* TNTTools.m */,
 				D1AE3CD22147E0F700313A9B /* UIView+TNTCategory.h */,
+				D1DF24CD2153C11800264A64 /* UIDevice+TNTAdd.h */,
+				D1DF24CE2153C11800264A64 /* UIDevice+TNTAdd.m */,
 				D1AE3CD52147E0F700313A9B /* UIView+TNTCategory.m */,
 				D1F6D2FE214F7E5A00BAFB62 /* UIImage+TNTCategory.h */,
 				D1F6D2FF214F7E5A00BAFB62 /* UIImage+TNTCategory.m */,
@@ -439,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DF24CF2153C11800264A64 /* UIDevice+TNTAdd.m in Sources */,
 				D1AE3CD62147E0F700313A9B /* TNTTools.m in Sources */,
 				D1B5A1AB212BC015004AD200 /* ViewController.m in Sources */,
 				D1F6D303214F83FE00BAFB62 /* UITextField+TNTCategory.m in Sources */,
