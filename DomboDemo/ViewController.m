@@ -12,6 +12,7 @@
 #import "UIView+TNTCategory.h"
 
 #import <FirstSpaceY/Person.h>
+#import "TNTKit/UIDevice+TNTAdd.h"
 @interface ViewController ()
 
 @end
@@ -57,6 +58,7 @@
 //    view.layer.masksToBounds = YES;
 //    [view.layer addSublayer:gl];
     
+    NSLog(@"deviceString == %@", [UIDevice deviceString]);
     
 }
 

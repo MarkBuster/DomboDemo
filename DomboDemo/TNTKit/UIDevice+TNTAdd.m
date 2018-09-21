@@ -36,6 +36,8 @@
     if ([deviceModel isEqualToString:@"iPhone8,4"])    return @"iPhone SE";
     if ([deviceModel isEqualToString:@"iPhone9,1"])    return @"iPhone 7";
     if ([deviceModel isEqualToString:@"iPhone9,2"])    return @"iPhone 7 Plus";
+    if ([deviceModel isEqualToString:@"iPhone10,1"])    return @"iPhone 8";
+    if ([deviceModel isEqualToString:@"iPhone10,2"])    return @"iPhone 8 Plus";
     if ([deviceModel isEqualToString:@"iPhone11,8"])    return @"iPhone XR";
     if ([deviceModel isEqualToString:@"iPhone11,2"])    return @"iPhone XS";
     if ([deviceModel isEqualToString:@"iPhone11,4"])    return @"iPhone XS Max";
